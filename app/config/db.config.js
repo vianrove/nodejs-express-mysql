@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: PROCESS.ENV.DBADDR,
+  HOST: process.env.DBADDR,
   USER: "root",
   PASSWORD: "123456",
   DB: "testdb"
